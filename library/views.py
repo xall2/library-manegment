@@ -15,6 +15,8 @@ def index(request):
            add_book.save()
 
 
+
+
     #اضيف تصنيف في الداتابيس من الموقع
     if request.method == 'POST':
         add_category = CategoryForm(request.POST)
